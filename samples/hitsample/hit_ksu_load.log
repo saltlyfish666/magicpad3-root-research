@@ -1,0 +1,132 @@
+=== loader start ===
+uid=0(root) gid=0(root) groups=0(root) context=u:r:kernel:s0
+Permissive
+uptime=300
+=== payloads ===
+total 96556
+-rw-rw-rw- 1 shell shell       18 2026-10-14 20:43 OPTS
+-rw-rw-rw- 1 shell shell    28948 2026-10-14 20:43 aff_diag.log
+-rw-r--r-- 1 root  root      1576 2026-10-14 12:05 allowlist.bin
+-rwxr-xr-x 1 shell shell   155272 2026-10-13 23:27 cve-2026-43499-bin-dc14
+-rwxr-xr-x 1 shell shell   155272 2026-10-13 23:27 cve-2026-43499-bin-dc14-sig
+-rwxr-xr-x 1 shell shell   154432 2026-10-13 23:27 cve-2026-43499-bin-dc14-sig1
+-rw-rw-rw- 1 shell shell    29816 2026-10-14 20:44 dc_ksu.log
+-rwxr-xr-x 1 shell shell     6637 2026-10-13 23:27 dc_ksu_run.sh
+-rw-rw-rw- 1 shell shell        0 2026-10-14 20:43 dc_stdout.log
+-rwxr-xr-x 1 shell shell    11264 2026-10-13 23:27 file_hunt
+-rwxr-xr-x 1 shell shell     9808 2026-10-13 23:27 kaslr_leak
+-rwxr-xr-x 1 shell shell  5540360 2026-10-13 23:27 kernelsu.ko
+-rwxr-xr-x 1 shell shell  5459384 2026-10-13 23:27 kernelsu_fallback.ko
+-rw-rw-rw- 1 root  root  75407360 2026-10-14 16:54 kmsg_cap.txt
+-rwxr-xr-x 1 shell shell  2140920 2026-10-13 23:27 kmsg_dumper
+-rw-rw-rw- 1 root  root       121 2026-10-14 20:44 ksu_load.log
+-rwxr-xr-x 1 shell shell    48171 2026-10-13 23:27 ksu_loader.sh
+-rwxr-xr-x 1 shell shell     1583 2026-10-13 23:27 ksu_rules
+-rwxr-xr-x 1 shell shell  4892712 2026-10-13 23:27 ksud
+-rwxr-xr-x 1 shell shell  2142392 2026-10-13 23:27 load_ko
+-rwxr-xr-x 1 shell shell   356584 2026-10-13 23:27 magiskpolicy
+-rw-rw-rw- 1 root  root     33122 2026-10-14 12:06 ph_all.log
+-rwxr-xr-x 1 shell shell    14680 2026-10-13 23:27 poison_hunt
+-rw-rw-rw- 1 root  root       533 2026-10-14 12:05 poison_hunt.log
+-rw-rw-rw- 1 root  root        22 2026-10-14 12:05 poison_trap.log
+-rwxr-xr-x 1 shell shell     8019 2026-10-13 23:27 poison_trap.sh
+-rw-rw-rw- 1 root  root   1974095 2026-10-14 12:05 pristine_policy
+-rwxr-xr-x 1 shell shell     7168 2026-10-13 23:27 purge
+-rw-rw-rw- 1 shell shell       37 2026-10-14 20:43 run.lock
+-rwxr-xr-x 1 shell shell     7736 2026-10-13 23:27 suas
+-rwxr-xr-x 1 shell shell   131672 2026-10-13 23:27 test_mod.ko
+kptr_restrict was=2
+bootfail switch before: true
+bootfail switch after : false
+hung_task_panic=0 (was 1)
+sysrq=1 (was 0 - enables stack dumps)
+bootfail detector before: boot_detector_enabled=Y
+bootfail detector DISABLED: boot_detector_enabled=N (init's PROCESS_BOOTFAIL ioctl now returns -EPERM)
+bootfail detector watchdog detached -> /data/local/tmp/ksu/bfm_watch.log
+poison_hunt: poison_hunt: done - processes=5 pages=0 poison_words=0 scrubbed=0
+poison_hunt hit lines: 5
+poison trap armed -> /data/local/tmp/ksu/poison_trap.log
+hisecd left running (harmless: its anti-root reaction does not reboot this device - control B)
+sig_enforce=N
+sig_enforce clear -> unsigned module may load
+pristine policy snapshot: 1974095 bytes
+magiskpolicy exit=0
+policy injected OK (ctx=u:r:kernel:s0)
+bootid params: random_table=ffffffe0b24f5f70 -> ctl=0xffffffe0b24f6070 buf=0xffffffe0b271dad8
+panic_on_oops cleared for the load
+ksu params: [allow_shell=1 log_reboot=1 bootid_ctl=0xffffffe0b24f6070 bootid_buf=0xffffffe0b271dad8]
+=== load candidate: /data/local/tmp/ksu/kernelsu.ko ===
+load_ko_exit=0
+--- /data/local/tmp/ksu/loadko_result.log ---
+[*] read /data/local/tmp/ksu/kernelsu.ko (5540360 bytes)
+[*] symtab: 1797 symbols
+[*] undefined symbols to resolve: 220
+[*] resolved 220/220 from /proc/kallsyms
+[*] patched 220 symbols to SHN_ABS; 0 unresolved
+[*] loading via init_module (flags=0, vermagic flags-only compare)
+[+] module loaded OK!
+hisecd kept frozen through the load window (pid=none)
+*** kernelsu LIVE in /proc/modules (loaded from /data/local/tmp/ksu/kernelsu.ko) ***
+health_check=1 (1 = syscall path intact)
+session wakelock -> ksu_session 
+ksud post-fs-data rc=0
+ksud services rc=0
+ksud boot-completed rc=0
+ksud install rc=0
+-rwxr-xr-x 1 root root 4892712 2026-10-14 20:44 /data/adb/ksud
+Feature 'sulog' set to 1 (enabled)
+sulog feature set rc=0
+Feature: sulog (2)
+Description: SU Log - streams kernel sulog events to userspace and persists them to disk
+Value: 1
+sulogd procs: 0
+--- allowlist evidence ---
+total 22
+drwx------ 6 root root 3452 2026-10-13 14:51 .
+drwx------ 3 root root 3452 2026-10-14 20:44 ..
+-rw-r--r-- 1 root root 1576 2026-10-14 00:04 .allowlist
+drwxrwxrwx 2 root root 3452 2026-10-14 20:44 bin
+drwx------ 2 root root 3452 2026-10-14 12:06 lib
+drwx------ 2 root root 3452 2026-10-14 20:44 log
+drwxrwxrwx 3 root root 3452 2026-10-13 14:47 module_configs
+-rw------- 1 root root    0 2026-10-13 14:47 sulogd.lock
+i
+i
+t
+n
+p
+rit
+:r:
+:
+i
+i
+t
+n
+p
+rit
+pr
+i
+r
+:r:
+:
+-rwxr-xr-x 1 root root u:object_r:ksu_file:s0  4892712 2026-10-14 20:44 /dev/su
+dev_su_id=uid=0(root) gid=0(root) groups=0(root) context=u:r:kernel:s0
+--- app su test: bin.mt.plus uid=unknown ---
+app su test skipped (uid='' suas=yes)
+-rw-r--r-- 1 root root 1576 2026-10-14 20:44 /data/local/tmp/ksu/allowlist.bin
+--- sulog tail ---
+== /data/adb/ksu/log/sulog-2026-10-13.log
+ts_ns=1206293992560 seq=44 type=ioctl_grant_root version=1 retval=0 pid=24098 tgid=24098 ppid=24065 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1206597652195 seq=45 type=ioctl_grant_root version=1 retval=0 pid=24438 tgid=24438 ppid=24411 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1225698761302 seq=46 type=ioctl_grant_root version=1 retval=0 pid=15927 tgid=15927 ppid=15901 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1277039543678 seq=47 type=ioctl_grant_root version=1 retval=0 pid=14295 tgid=14295 ppid=14268 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1303586691064 seq=48 type=ioctl_grant_root version=1 retval=0 pid=13996 tgid=13996 ppid=13972 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1328597438034 seq=49 type=ioctl_grant_root version=1 retval=0 pid=12994 tgid=12994 ppid=12974 uid=2000 euid=2000 comm="su" file="" argv=""
+== /data/adb/ksu/log/sulog-2026-10-14.log
+ts_ns=1538933966964 seq=13 type=ioctl_grant_root version=1 retval=0 pid=7339 tgid=7339 ppid=7305 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1631283972554 seq=14 type=ioctl_grant_root version=1 retval=0 pid=20855 tgid=20855 ppid=20818 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1631621856044 seq=15 type=ioctl_grant_root version=1 retval=0 pid=21204 tgid=21204 ppid=21177 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1632189115210 seq=16 type=ioctl_grant_root version=1 retval=0 pid=21830 tgid=21830 ppid=21800 uid=2000 euid=2000 comm="su" file="" argv=""
+ts_ns=1680876407796 seq=17 type=ioctl_grant_root version=1 retval=0 pid=18720 tgid=18720 ppid=18676 uid=2000 euid=2000 comm="su" file="" argv=""
+type=daemon_start boot_id="635323ed-f6e0-45f0-bf5d-f4dc609f7666"
+tombstones: left writable (default - hiding them is what hung init at uptime 279s)

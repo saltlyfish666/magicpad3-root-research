@@ -1,0 +1,2641 @@
+CP: write-geom target=ffffffda09d3c340 pc=ffffff8874851000 canon=1 kaslr_done=1 kaslr_base=ffffffda07800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8874851000 target=ffffffda09d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffda09d3c340 fake_fops=ffffff8874851000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe4a5f3c340 pc=ffffff891b821000 canon=1 kaslr_done=1 kaslr_base=ffffffe4a3a00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff891b821000 target=ffffffe4a5f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe4a5f3c340 fake_fops=ffffff891b821000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffda5fd3c340 pc=ffffff8831cf9000 canon=1 kaslr_done=1 kaslr_base=ffffffda5d800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8831cf9000 target=ffffffda5fd3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffda5fd3c340 fake_fops=ffffff8831cf9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd3a773c340 pc=ffffff8015089000 canon=1 kaslr_done=1 kaslr_base=ffffffd3a5200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8015089000 target=ffffffd3a773c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd3a773c340 fake_fops=ffffff8015089000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd7c633c340 pc=ffffff8035e19000 canon=1 kaslr_done=1 kaslr_base=ffffffd7c3e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8035e19000 target=ffffffd7c633c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=1 waiter_ok=1 write_window=0
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd7c633c340 fake_fops=ffffff8035e19000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd06973c340 pc=ffffff8925669000 canon=1 kaslr_done=1 kaslr_base=ffffffd067200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8925669000 target=ffffffd06973c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd06973c340 fake_fops=ffffff8925669000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffeb5413c340 pc=ffffff89622c9000 canon=1 kaslr_done=1 kaslr_base=ffffffeb51c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89622c9000 target=ffffffeb5413c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffeb5413c340 fake_fops=ffffff89622c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdab993c340 pc=ffffff885cb41000 canon=1 kaslr_done=1 kaslr_base=ffffffdab7400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff885cb41000 target=ffffffdab993c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdab993c340 fake_fops=ffffff885cb41000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd0edd3c340 pc=ffffff89691a9000 canon=1 kaslr_done=1 kaslr_base=ffffffd0eb800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89691a9000 target=ffffffd0edd3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd0edd3c340 fake_fops=ffffff89691a9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd7d1f3c340 pc=ffffff8019011000 canon=1 kaslr_done=1 kaslr_base=ffffffd7cfa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8019011000 target=ffffffd7d1f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=0
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd7d1f3c340 fake_fops=ffffff8019011000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff888ffb8000
+CP: pipe-cache-gate
+CP: pipe-find
+CP: pipe-proof
+CP: cfi-SUCCESS (normal path)
+CP: write-geom target=ffffffdf6f53c340 pc=ffffff88f3491000 canon=1 kaslr_done=1 kaslr_base=ffffffdf6d000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88f3491000 target=ffffffdf6f53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf6f53c340 fake_fops=ffffff88f3491000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf6f53c340 pc=ffffff8842369000 canon=1 kaslr_done=1 kaslr_base=ffffffdf6d000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8842369000 target=ffffffdf6f53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf6f53c340 fake_fops=ffffff8842369000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf6f53c340 pc=ffffff895ab61000 canon=1 kaslr_done=1 kaslr_base=ffffffdf6d000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff895ab61000 target=ffffffdf6f53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf6f53c340 fake_fops=ffffff895ab61000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd600d3c340 pc=ffffff892b761000 canon=1 kaslr_done=1 kaslr_base=ffffffd5fe800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff892b761000 target=ffffffd600d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd600d3c340 fake_fops=ffffff892b761000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd600d3c340 pc=ffffff896c0a9000 canon=1 kaslr_done=1 kaslr_base=ffffffd5fe800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff896c0a9000 target=ffffffd600d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd600d3c340 fake_fops=ffffff896c0a9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd36993c340 pc=ffffff8910639000 canon=1 kaslr_done=1 kaslr_base=ffffffd367400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8910639000 target=ffffffd36993c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd36993c340 fake_fops=ffffff8910639000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe3cdb3c340 pc=ffffff89400a9000 canon=1 kaslr_done=1 kaslr_base=ffffffe3cb600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89400a9000 target=ffffffe3cdb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe3cdb3c340 fake_fops=ffffff89400a9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffded1d3c340 pc=ffffff8884c39000 canon=1 kaslr_done=1 kaslr_base=ffffffdecf800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8884c39000 target=ffffffded1d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffded1d3c340 fake_fops=ffffff8884c39000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffded1d3c340 pc=ffffff88d9881000 canon=1 kaslr_done=1 kaslr_base=ffffffdecf800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88d9881000 target=ffffffded1d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffded1d3c340 fake_fops=ffffff88d9881000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd69c93c340 pc=ffffff8875559000 canon=1 kaslr_done=1 kaslr_base=ffffffd69a400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8875559000 target=ffffffd69c93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd69c93c340 fake_fops=ffffff8875559000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd69c93c340 pc=ffffff891fcc9000 canon=1 kaslr_done=1 kaslr_base=ffffffd69a400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff891fcc9000 target=ffffffd69c93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd69c93c340 fake_fops=ffffff891fcc9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdaf0f3c340 pc=ffffff803a601000 canon=1 kaslr_done=1 kaslr_base=ffffffdaeea00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff803a601000 target=ffffffdaf0f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: child-result child_result=1 sched_ok=2 waiter_ok=1 write_window=0
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdaf0f3c340 fake_fops=ffffff803a601000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf6cf3c340 pc=ffffff89141a1000 canon=1 kaslr_done=1 kaslr_base=ffffffdf6aa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89141a1000 target=ffffffdf6cf3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf6cf3c340 fake_fops=ffffff89141a1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe98bb3c340 pc=ffffff88b6c49000 canon=1 kaslr_done=1 kaslr_base=ffffffe989600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88b6c49000 target=ffffffe98bb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe98bb3c340 fake_fops=ffffff88b6c49000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd27cf3c340 pc=ffffff8849d39000 canon=1 kaslr_done=1 kaslr_base=ffffffd27aa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8849d39000 target=ffffffd27cf3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd27cf3c340 fake_fops=ffffff8849d39000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe2d513c340 pc=ffffff8951579000 canon=1 kaslr_done=1 kaslr_base=ffffffe2d2c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8951579000 target=ffffffe2d513c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe2d513c340 fake_fops=ffffff8951579000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd577d3c340 pc=ffffff89327a9000 canon=1 kaslr_done=1 kaslr_base=ffffffd575800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89327a9000 target=ffffffd577d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd577d3c340 fake_fops=ffffff89327a9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff8922b20000
+CP: pipe-cache-gate
+CP: pipe-install-enter fd=4 base=0000000000000000
+CP: write-geom target=ffffffd14ad3c340 pc=ffffff8950251000 canon=1 kaslr_done=1 kaslr_base=ffffffd148800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8950251000 target=ffffffd14ad3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=2 waiter_ok=1 write_window=0
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd14ad3c340 fake_fops=ffffff8950251000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff8040510000
+CP: pipe-cache-gate
+CP: pipe-install-enter fd=4 base=0000000000000000
+CP: write-geom target=ffffffd14ad3c340 pc=ffffff88d3d11000 canon=1 kaslr_done=1 kaslr_base=ffffffd148800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88d3d11000 target=ffffffd14ad3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=2 waiter_ok=1 write_window=0
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd14ad3c340 fake_fops=ffffff88d3d11000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd05a93c340 pc=ffffff88cf511000 canon=1 kaslr_done=1 kaslr_base=ffffffd058400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88cf511000 target=ffffffd05a93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd05a93c340 fake_fops=ffffff88cf511000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd05a93c340 pc=ffffff89131d1000 canon=1 kaslr_done=1 kaslr_base=ffffffd058400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89131d1000 target=ffffffd05a93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd05a93c340 fake_fops=ffffff89131d1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd05a93c340 pc=ffffff8056ee9000 canon=1 kaslr_done=1 kaslr_base=ffffffd058400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8056ee9000 target=ffffffd05a93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: child-result child_result=1 sched_ok=1 waiter_ok=1 write_window=0
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd05a93c340 fake_fops=ffffff8056ee9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd05a93c340 pc=ffffff8860931000 canon=1 kaslr_done=1 kaslr_base=ffffffd058400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8860931000 target=ffffffd05a93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd05a93c340 fake_fops=ffffff8860931000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe28e13c340 pc=ffffff8873dd1000 canon=1 kaslr_done=1 kaslr_base=ffffffe28bc00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8873dd1000 target=ffffffe28e13c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe28e13c340 fake_fops=ffffff8873dd1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe28e13c340 pc=ffffff8018709000 canon=1 kaslr_done=1 kaslr_base=ffffffe28bc00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8018709000 target=ffffffe28e13c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe28e13c340 fake_fops=ffffff8018709000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd77513c340 pc=ffffff88e9201000 canon=1 kaslr_done=1 kaslr_base=ffffffd772c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88e9201000 target=ffffffd77513c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=1 waiter_ok=1 write_window=0
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd77513c340 fake_fops=ffffff88e9201000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd77513c340 pc=ffffff88e61d9000 canon=1 kaslr_done=1 kaslr_base=ffffffd772c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88e61d9000 target=ffffffd77513c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd77513c340 fake_fops=ffffff88e61d9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf0a33c340 pc=ffffff8904401000 canon=1 kaslr_done=1 kaslr_base=ffffffdf07e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8904401000 target=ffffffdf0a33c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf0a33c340 fake_fops=ffffff8904401000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffefffb3c340 pc=ffffff890d401000 canon=1 kaslr_done=1 kaslr_base=ffffffeffd600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff890d401000 target=ffffffefffb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffefffb3c340 fake_fops=ffffff890d401000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffefffb3c340 pc=ffffff88ef4b9000 canon=1 kaslr_done=1 kaslr_base=ffffffeffd600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88ef4b9000 target=ffffffefffb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffefffb3c340 fake_fops=ffffff88ef4b9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffde0613c340 pc=ffffff882e451000 canon=1 kaslr_done=1 kaslr_base=ffffffde03c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffffde05cbfef8 target=ffffffde060f60b8
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: write-round #2 enter report=1 parent=ffffffde05cab668 target=ffffffde060f60b8
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: write-geom target=ffffffd3ba13c340 pc=ffffff80380c1000 canon=1 kaslr_done=1 kaslr_base=ffffffd3b7c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffffd3b9cbfef8 target=ffffffd3ba0f60b8
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: write-round #2 enter report=1 parent=ffffffd3b9cab668 target=ffffffd3ba0f60b8
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: write-geom target=ffffffdfddcfca40 pc=ffffff8886dc1000 canon=1 kaslr_done=1 kaslr_base=ffffffdfdb600000 slide_p0_off=0000000000000000 selinux_route=1 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8886dc1000 target=ffffffdfddcfca40
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdfddb3c340 fake_fops=ffffff8886dc1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdfddcfca40 pc=ffffff888bbd9000 canon=1 kaslr_done=1 kaslr_base=ffffffdfdb600000 slide_p0_off=0000000000000000 selinux_route=1 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff888bbd9000 target=ffffffdfddcfca40
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdfddb3c340 fake_fops=ffffff888bbd9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe7daf3c340 pc=ffffff885d599000 canon=1 kaslr_done=1 kaslr_base=ffffffe7d8a00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff885d599000 target=ffffffe7daf3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe7daf3c340 fake_fops=ffffff885d599000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe14ab3c340 pc=ffffff88e48c9000 canon=1 kaslr_done=1 kaslr_base=ffffffe148600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88e48c9000 target=ffffffe14ab3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe14ab3c340 fake_fops=ffffff88e48c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe4c1f3c340 pc=ffffff8858381000 canon=1 kaslr_done=1 kaslr_base=ffffffe4bfa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8858381000 target=ffffffe4c1f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe4c1f3c340 fake_fops=ffffff8858381000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffef1493c340 pc=ffffff896ee59000 canon=1 kaslr_done=1 kaslr_base=ffffffef12400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff896ee59000 target=ffffffef1493c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffef1493c340 fake_fops=ffffff896ee59000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe88793c340 pc=ffffff8833219000 canon=1 kaslr_done=1 kaslr_base=ffffffe885400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8833219000 target=ffffffe88793c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe88793c340 fake_fops=ffffff8833219000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdbf033c340 pc=ffffff8860669000 canon=1 kaslr_done=1 kaslr_base=ffffffdbede00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8860669000 target=ffffffdbf033c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdbf033c340 fake_fops=ffffff8860669000 fd=4 pre_fd=3
+CP: pipe-install-enter fd=4 base=ffffff8903ab0000
+CP: pipe-cache-gate
+CP: cfi-FAIL step=4 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd23fb3c340 pc=ffffff88cccb1000 canon=1 kaslr_done=1 kaslr_base=ffffffd23d600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88cccb1000 target=ffffffd23fb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd23fb3c340 fake_fops=ffffff88cccb1000 fd=4 pre_fd=3
+CP: pipe-install-enter fd=4 base=ffffff88e0dc8000
+CP: pipe-cache-gate
+CP: cfi-FAIL step=4 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe1e653c340 pc=ffffff80563e1000 canon=1 kaslr_done=1 kaslr_base=ffffffe1e4000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff80563e1000 target=ffffffe1e653c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe1e653c340 fake_fops=ffffff80563e1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffefd5b3c340 pc=ffffff88f0019000 canon=1 kaslr_done=1 kaslr_base=ffffffefd3600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88f0019000 target=ffffffefd5b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffefd5b3c340 fake_fops=ffffff88f0019000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffde9bb3c340 pc=ffffff88ee549000 canon=1 kaslr_done=1 kaslr_base=ffffffde99600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88ee549000 target=ffffffde9bb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffde9bb3c340 fake_fops=ffffff88ee549000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd5cff3c340 pc=ffffff88c6631000 canon=1 kaslr_done=1 kaslr_base=ffffffd5cda00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88c6631000 target=ffffffd5cff3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=2 waiter_ok=1 write_window=0
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd5cff3c340 fake_fops=ffffff88c6631000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdffbd3c340 pc=ffffff8822c69000 canon=1 kaslr_done=1 kaslr_base=ffffffdff9800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8822c69000 target=ffffffdffbd3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdffbd3c340 fake_fops=ffffff8822c69000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe66d73c340 pc=ffffff88347b1000 canon=1 kaslr_done=1 kaslr_base=ffffffe66b200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88347b1000 target=ffffffe66d73c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe66d73c340 fake_fops=ffffff88347b1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffebd6b3c340 pc=ffffff8874369000 canon=1 kaslr_done=1 kaslr_base=ffffffebd4600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8874369000 target=ffffffebd6b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffebd6b3c340 fake_fops=ffffff8874369000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffed9333c340 pc=ffffff88b5d19000 canon=1 kaslr_done=1 kaslr_base=ffffffed90e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88b5d19000 target=ffffffed9333c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: write-geom target=ffffffd894d3c340 pc=ffffff881ee61000 canon=1 kaslr_done=1 kaslr_base=ffffffd892800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff881ee61000 target=ffffffd894d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd894d3c340 fake_fops=ffffff881ee61000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd08d33c340 pc=ffffff8934361000 canon=1 kaslr_done=1 kaslr_base=ffffffd08ae00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8934361000 target=ffffffd08d33c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd08d33c340 fake_fops=ffffff8934361000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe18db3c340 pc=ffffff8885491000 canon=1 kaslr_done=1 kaslr_base=ffffffe18b600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8885491000 target=ffffffe18db3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe18db3c340 fake_fops=ffffff8885491000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffee3e33c340 pc=ffffff8858461000 canon=1 kaslr_done=1 kaslr_base=ffffffee3be00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8858461000 target=ffffffee3e33c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffee3e33c340 fake_fops=ffffff8858461000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd46b13c340 pc=ffffff8924449000 canon=1 kaslr_done=1 kaslr_base=ffffffd468c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8924449000 target=ffffffd46b13c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd46b13c340 fake_fops=ffffff8924449000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffeec753c340 pc=ffffff8047829000 canon=1 kaslr_done=1 kaslr_base=ffffffeec5000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8047829000 target=ffffffeec753c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffeec753c340 fake_fops=ffffff8047829000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff8034d68000
+CP: pipe-cache-gate
+CP: pipe-find
+CP: pipe-proof
+CP: cfi-SUCCESS (normal path)
+CP: write-geom target=ffffffd13d33c340 pc=ffffff88e7b61000 canon=1 kaslr_done=1 kaslr_base=ffffffd13ae00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88e7b61000 target=ffffffd13d33c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd13d33c340 fake_fops=ffffff88e7b61000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe1b5d3c340 pc=ffffff88cb521000 canon=1 kaslr_done=1 kaslr_base=ffffffe1b3800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88cb521000 target=ffffffe1b5d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe1b5d3c340 fake_fops=ffffff88cb521000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd28553c340 pc=ffffff8800311000 canon=1 kaslr_done=1 kaslr_base=ffffffd283000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8800311000 target=ffffffd28553c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd28553c340 fake_fops=ffffff8800311000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd2b1f3c340 pc=ffffff88569c9000 canon=1 kaslr_done=1 kaslr_base=ffffffd2afa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88569c9000 target=ffffffd2b1f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd2b1f3c340 fake_fops=ffffff88569c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe3f653c340 pc=ffffff8932ed1000 canon=1 kaslr_done=1 kaslr_base=ffffffe3f4000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8932ed1000 target=ffffffe3f653c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe3f653c340 fake_fops=ffffff8932ed1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff8872990000
+CP: pipe-cache-gate
+CP: pipe-find
+CP: pipe-proof
+CP: cfi-SUCCESS (normal path)
+CP: write-geom target=ffffffd43833c340 pc=ffffff8852e49000 canon=1 kaslr_done=1 kaslr_base=ffffffd435e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8852e49000 target=ffffffd43833c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd43833c340 fake_fops=ffffff8852e49000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdc3793c340 pc=ffffff891d6a1000 canon=1 kaslr_done=1 kaslr_base=ffffffdc35400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff891d6a1000 target=ffffffdc3793c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdc3793c340 fake_fops=ffffff891d6a1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe9e533c340 pc=ffffff88de6b1000 canon=1 kaslr_done=1 kaslr_base=ffffffe9e2e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88de6b1000 target=ffffffe9e533c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe9e533c340 fake_fops=ffffff88de6b1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd09fd3c340 pc=ffffff88a77b9000 canon=1 kaslr_done=1 kaslr_base=ffffffd09d800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88a77b9000 target=ffffffd09fd3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd09fd3c340 fake_fops=ffffff88a77b9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd530f3c340 pc=ffffff88c1491000 canon=1 kaslr_done=1 kaslr_base=ffffffd52ea00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88c1491000 target=ffffffd530f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd530f3c340 fake_fops=ffffff88c1491000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd3ab93c340 pc=ffffff895b369000 canon=1 kaslr_done=1 kaslr_base=ffffffd3a9400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff895b369000 target=ffffffd3ab93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd3ab93c340 fake_fops=ffffff895b369000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe0ba53c340 pc=ffffff896c389000 canon=1 kaslr_done=1 kaslr_base=ffffffe0b8000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff896c389000 target=ffffffe0ba53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe0ba53c340 fake_fops=ffffff896c389000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffedc253c340 pc=ffffff890eba9000 canon=1 kaslr_done=1 kaslr_base=ffffffedc0000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff890eba9000 target=ffffffedc253c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffedc253c340 fake_fops=ffffff890eba9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd7eb53c340 pc=ffffff88d94e1000 canon=1 kaslr_done=1 kaslr_base=ffffffd7e9000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88d94e1000 target=ffffffd7eb53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd7eb53c340 fake_fops=ffffff88d94e1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffef9b13c340 pc=ffffff88deaf9000 canon=1 kaslr_done=1 kaslr_base=ffffffef98c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88deaf9000 target=ffffffef9b13c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffef9b13c340 fake_fops=ffffff88deaf9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd3e153c340 pc=ffffff8950279000 canon=1 kaslr_done=1 kaslr_base=ffffffd3df000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8950279000 target=ffffffd3e153c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd3e153c340 fake_fops=ffffff8950279000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffefb213c340 pc=ffffff88b4129000 canon=1 kaslr_done=1 kaslr_base=ffffffefafc00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88b4129000 target=ffffffefb213c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffefb213c340 fake_fops=ffffff88b4129000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe405d3c340 pc=ffffff89185c9000 canon=1 kaslr_done=1 kaslr_base=ffffffe403800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89185c9000 target=ffffffe405d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe405d3c340 fake_fops=ffffff89185c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffec4333c340 pc=ffffff8970441000 canon=1 kaslr_done=1 kaslr_base=ffffffec40e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8970441000 target=ffffffec4333c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffec4333c340 fake_fops=ffffff8970441000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd37393c340 pc=ffffff88592c1000 canon=1 kaslr_done=1 kaslr_base=ffffffd371400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88592c1000 target=ffffffd37393c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd37393c340 fake_fops=ffffff88592c1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd97b53c340 pc=ffffff803a9f1000 canon=1 kaslr_done=1 kaslr_base=ffffffd979000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff803a9f1000 target=ffffffd97b53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd97b53c340 fake_fops=ffffff803a9f1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd041d3c340 pc=ffffff8937bc1000 canon=1 kaslr_done=1 kaslr_base=ffffffd03f800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8937bc1000 target=ffffffd041d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd041d3c340 fake_fops=ffffff8937bc1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff89012f8000
+CP: pipe-cache-gate
+CP: pipe-find
+CP: pipe-proof
+CP: cfi-SUCCESS (normal path)
+CP: write-geom target=ffffffdb76b3c340 pc=ffffff88de7c9000 canon=1 kaslr_done=1 kaslr_base=ffffffdb74600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88de7c9000 target=ffffffdb76b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdb76b3c340 fake_fops=ffffff88de7c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe738b3c340 pc=ffffff8818a41000 canon=1 kaslr_done=1 kaslr_base=ffffffe736600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8818a41000 target=ffffffe738b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe738b3c340 fake_fops=ffffff8818a41000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd5a233c340 pc=ffffff8825081000 canon=1 kaslr_done=1 kaslr_base=ffffffd59fe00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8825081000 target=ffffffd5a233c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd5a233c340 fake_fops=ffffff8825081000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd63493c340 pc=ffffff88a1f49000 canon=1 kaslr_done=1 kaslr_base=ffffffd632400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88a1f49000 target=ffffffd63493c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd63493c340 fake_fops=ffffff88a1f49000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd551f3c340 pc=ffffff891a821000 canon=1 kaslr_done=1 kaslr_base=ffffffd54fa00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff891a821000 target=ffffffd551f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd551f3c340 fake_fops=ffffff891a821000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffeba593c340 pc=ffffff8866ea9000 canon=1 kaslr_done=1 kaslr_base=ffffffeba3400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8866ea9000 target=ffffffeba593c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffeba593c340 fake_fops=ffffff8866ea9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd1ec33c340 pc=ffffff8015051000 canon=1 kaslr_done=1 kaslr_base=ffffffd1e9e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8015051000 target=ffffffd1ec33c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd1ec33c340 fake_fops=ffffff8015051000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd906d3c340 pc=ffffff890e069000 canon=1 kaslr_done=1 kaslr_base=ffffffd904800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff890e069000 target=ffffffd906d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd906d3c340 fake_fops=ffffff890e069000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe8a9d3c340 pc=ffffff88fecc1000 canon=1 kaslr_done=1 kaslr_base=ffffffe8a7800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88fecc1000 target=ffffffe8a9d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: write-geom target=ffffffdeb3b3c340 pc=ffffff885d541000 canon=1 kaslr_done=1 kaslr_base=ffffffdeb1600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff885d541000 target=ffffffdeb3b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: write-geom target=ffffffee7bb3c340 pc=ffffff88f18d1000 canon=1 kaslr_done=1 kaslr_base=ffffffee79600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88f18d1000 target=ffffffee7bb3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffee7bb3c340 fake_fops=ffffff88f18d1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffefd833c340 pc=ffffff894c281000 canon=1 kaslr_done=1 kaslr_base=ffffffefd5e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff894c281000 target=ffffffefd833c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffefd833c340 fake_fops=ffffff894c281000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd7c453c340 pc=ffffff89569e9000 canon=1 kaslr_done=1 kaslr_base=ffffffd7c2000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89569e9000 target=ffffffd7c453c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd7c453c340 fake_fops=ffffff89569e9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff888efe8000
+CP: pipe-cache-gate
+CP: pipe-install-enter fd=4 base=0000000000000000
+CP: write-geom target=ffffffd24153c340 pc=ffffff891ac81000 canon=1 kaslr_done=1 kaslr_base=ffffffd23f000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff891ac81000 target=ffffffd24153c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd24153c340 fake_fops=ffffff891ac81000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd9f753c340 pc=ffffff88ecc29000 canon=1 kaslr_done=1 kaslr_base=ffffffd9f5000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88ecc29000 target=ffffffd9f753c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd9f753c340 fake_fops=ffffff88ecc29000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffead0d3c340 pc=ffffff8823771000 canon=1 kaslr_done=1 kaslr_base=ffffffeace800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8823771000 target=ffffffead0d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffead0d3c340 fake_fops=ffffff8823771000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe6dbf3c340 pc=ffffff88178c9000 canon=1 kaslr_done=1 kaslr_base=ffffffe6d9a00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88178c9000 target=ffffffe6dbf3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe6dbf3c340 fake_fops=ffffff88178c9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe4a0b3c340 pc=ffffff88492a9000 canon=1 kaslr_done=1 kaslr_base=ffffffe49e600000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88492a9000 target=ffffffe4a0b3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: child-result child_result=1 sched_ok=3 waiter_ok=1 write_window=0
+CP: sched_setattr-return
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe4a0b3c340 fake_fops=ffffff88492a9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffda9453c340 pc=ffffff8897de9000 canon=1 kaslr_done=1 kaslr_base=ffffffda92000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8897de9000 target=ffffffda9453c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffda9453c340 fake_fops=ffffff8897de9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffda33f3c340 pc=ffffff88f2739000 canon=1 kaslr_done=1 kaslr_base=ffffffda31a00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88f2739000 target=ffffffda33f3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffda33f3c340 fake_fops=ffffff88f2739000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd799d3c340 pc=ffffff89577c1000 canon=1 kaslr_done=1 kaslr_base=ffffffd797800000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89577c1000 target=ffffffd799d3c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd799d3c340 fake_fops=ffffff89577c1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe99453c340 pc=ffffff889b319000 canon=1 kaslr_done=1 kaslr_base=ffffffe992000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff889b319000 target=ffffffe99453c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe99453c340 fake_fops=ffffff889b319000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe72c93c340 pc=ffffff8970961000 canon=1 kaslr_done=1 kaslr_base=ffffffe72a400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8970961000 target=ffffffe72c93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe72c93c340 fake_fops=ffffff8970961000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffea5333c340 pc=ffffff8917cb1000 canon=1 kaslr_done=1 kaslr_base=ffffffea50e00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8917cb1000 target=ffffffea5333c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffea5333c340 fake_fops=ffffff8917cb1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd29b13c340 pc=ffffff89004d1000 canon=1 kaslr_done=1 kaslr_base=ffffffd298c00000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89004d1000 target=ffffffd29b13c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd29b13c340 fake_fops=ffffff89004d1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe65b53c340 pc=ffffff881b331000 canon=1 kaslr_done=1 kaslr_base=ffffffe659000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff881b331000 target=ffffffe65b53c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe65b53c340 fake_fops=ffffff881b331000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf7f93c340 pc=ffffff8811bb1000 canon=1 kaslr_done=1 kaslr_base=ffffffdf7d400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8811bb1000 target=ffffffdf7f93c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf7f93c340 fake_fops=ffffff8811bb1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd74493c340 pc=ffffff8945829000 canon=1 kaslr_done=1 kaslr_base=ffffffd742400000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8945829000 target=ffffffd74493c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd74493c340 fake_fops=ffffff8945829000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffd6fa73c340 pc=ffffff8038b31000 canon=1 kaslr_done=1 kaslr_base=ffffffd6f8200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8038b31000 target=ffffffd6fa73c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffd6fa73c340 fake_fops=ffffff8038b31000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffdf4573c340 pc=ffffff88efa99000 canon=1 kaslr_done=1 kaslr_base=ffffffdf43200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88efa99000 target=ffffffdf4573c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffdf4573c340 fake_fops=ffffff88efa99000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe1f273c340 pc=ffffff88abda1000 canon=1 kaslr_done=1 kaslr_base=ffffffe1f0200000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff88abda1000 target=ffffffe1f273c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe1f273c340 fake_fops=ffffff88abda1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe6c953c340 pc=ffffff8962ba1000 canon=1 kaslr_done=1 kaslr_base=ffffffe6c7000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8962ba1000 target=ffffffe6c953c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe6c953c340 fake_fops=ffffff8962ba1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe0b253c340 pc=ffffff8901fe9000 canon=1 kaslr_done=1 kaslr_base=ffffffe0b0000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff8901fe9000 target=ffffffe0b253c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe0b253c340 fake_fops=ffffff8901fe9000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: restore-configfs-failed-continue
+CP: cfi-FAIL step=6 errno=0 dirty=0 fast=0
+CP: write-geom target=ffffffe0b253c340 pc=ffffff89499e1000 canon=1 kaslr_done=1 kaslr_base=ffffffe0b0000000 slide_p0_off=0000000000000000 selinux_route=0 bridge=0
+CP: write-round #1 enter report=1 parent=ffffff89499e1000 target=ffffffe0b253c340
+CP: deadlock-accepted
+CP: waiter-hold-chain
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: consumer-firing
+CP: sched_setattr-enter
+CP: sched_setattr-return
+CP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+CP: p0-physical-write status=0 ok=1
+CP: lseek-oracle pre=-1/0 new=-1/0 replaced=0 misc_fops=ffffffe0b253c340 fake_fops=ffffff89499e1000 fd=4 pre_fd=3
+CP: cfi-SKIP-VERIFY bypass at fd-diff -> write_confirmed
+CP: write-confirmed (normal path)
+CP: pipe-install-enter fd=4 base=ffffff889f720000
+CP: pipe-cache-gate
+CP: pipe-find
+CP: pipe-proof

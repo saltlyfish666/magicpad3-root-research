@@ -1,0 +1,306 @@
+poison_hunt: kernel-word 0xffffff80..bf + colour bits, 0x200 stride from 0x80, min_run=3 scrub=0 all=1
+--- pid=1 comm=init ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=363 comm=init ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=365 comm=ueventd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=533 comm=prng_seeder ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=558 comm=audioadsprpcd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=564 comm=logd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=565 comm=lmkd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=566 comm=servicemanager ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=569 comm=hwservicemanage ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=578 comm=vndservicemanag ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1215 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1234 comm=qseecomd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1238 comm=binder:1238_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1243 comm=binder:1243_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1244 comm=oeminfo_nvm_ser ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1245 comm=usb_port ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1359 comm=binder:1359_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1400 comm=qcrosvm ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1404 comm=android.system. ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1405 comm=binder:1405_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1406 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1407 comm=teecd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1410 comm=binder:1410_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1411 comm=sscrpcd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1518 comm=bms_auth ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1519 comm=bms_event ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1520 comm=bms_soc ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1540 comm=tombstoned ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1724 comm=time_daemon ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1755 comm=binder:1755_4 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1756 comm=binder:1756_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1757 comm=main ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1769 comm=iptables-restor ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1770 comm=ip6tables-resto ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1803 comm=pd-mapper ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1818 comm=tee_auth_daemon ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1820 comm=ssgtzd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1821 comm=binder:1821_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1823 comm=diag-router ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1830 comm=allocator@1.0-s ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1831 comm=qccsyshal@1.2-s ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1833 comm=binder:1833_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1834 comm=binder:1834_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1839 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1840 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1849 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1852 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1854 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1856 comm=binder:1856_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1860 comm=vendor.qti.hard ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1879 comm=binder:1879_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1885 comm=binder:1885_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1900 comm=qesdk-manager ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1907 comm=binder:1907_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1909 comm=binder:1909_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1918 comm=binder:1918_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1921 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1923 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1927 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1935 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1937 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1942 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1943 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1946 comm=binder:1946_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1947 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1950 comm=binder:1950_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1961 comm=binder:1961_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1971 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1973 comm=binder:1973_6 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1976 comm=capabilityconfi ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1978 comm=binder:1978_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1979 comm=binder:1979_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1982 comm=dspservice ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1983 comm=binder:1983_3 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1986 comm=vendor.qti.medi ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=1988 comm=binder:1988_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2029 comm=audioserver ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2031 comm=binder:2031_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2039 comm=surfaceflinger ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2044 comm=powerlogd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2045 comm=qsap_sensors ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2046 comm=rmt_storage ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2047 comm=tftp_server ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2087 comm=aptouch_daemon ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2100 comm=bsoh ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2107 comm=hisecd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2223 comm=qwesd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2335 comm=traced_probes ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2336 comm=traced ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2337 comm=HwServiceHost ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2338 comm=emcomd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2341 comm=binder:2341_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2342 comm=android.hardwar ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2354 comm=qmipriod ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2355 comm=shsusrd0 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2365 comm=binder:2365_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2368 comm=AGPService ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2380 comm=binder:2380_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2384 comm=displayenginese ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2386 comm=dubaid ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2387 comm=iGraphicsservic ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2389 comm=binder:2389_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2390 comm=binder:2390_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2395 comm=mediaextractor ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2396 comm=mediametrics ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2399 comm=mediaserver ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2401 comm=storaged ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2404 comm=wificond ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2406 comm=perfservice ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2407 comm=binder:2407_5 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2409 comm=qsap_dcfd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2410 comm=binder:2410_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2411 comm=binder:2411_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2413 comm=binder:2413_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2416 comm=hwpged ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2432 comm=ipacm-diag ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2438 comm=binder:2438_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2441 comm=binder:2441_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2442 comm=port-bridge ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2460 comm=qsap_location ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2470 comm=qsap_qapeservic ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2471 comm=adsprpcd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2474 comm=cdsprpcd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2476 comm=binder:2476_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2480 comm=cnss-daemon ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2483 comm=ssgqmigd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2488 comm=mlid ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2496 comm=gatekeeperd ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2506 comm=hiview ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2510 comm=qsguard ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2512 comm=feature_enabler ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2514 comm=binder:2514_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2518 comm=loc_launcher ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2520 comm=vendor.honor.ha ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2565 comm=lowi-server ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2566 comm=xtra-daemon ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2661 comm=vendor.qti.hard ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=2920 comm=system_server ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3083 comm=vendor.hardware ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3445 comm=binder:3445_2 ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3524 comm=ndroid.launcher ---
+  pid=3524   page=0x0000007c1d201000 slots= 3 first=0xffff955cffff7832@0xc80
+      vma: 7c1d1da000-7c1f71a000 rw-p 00000000 00:00 0                              [anon:scudo:primary]
+      head: 64 a2 ff ff 70 a9 ff ff 81 b3 ff ff 93 bf ff ff 9e c4 ff ff 9b c2 ff ff 91 b9 ff ff 7d ab ff ff 5e 97 ff ff 38 7c ff ff 25 6f ff ff 25 6f ff ff 25 6f ff ff 25 6f ff ff 25 6f ff ff 25 6f ff ff
+--- pid=3525 comm=ssioncontroller ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3532 comm=ndroid.systemui ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3550 comm=ndroid.settings ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3583 comm=com.hihonor.lbs ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3591 comm=rkstack.process ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3617 comm=.hihonor.iaware ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3632 comm=qtidataservices ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3649 comm=com.qti.phone ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3678 comm=webview_zygote ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3691 comm=.qms ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=3721 comm=or.systemserver ---

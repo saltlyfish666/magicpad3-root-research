@@ -1,0 +1,12 @@
+poison_hunt: kernel-word 0xffffff80..bf + colour bits, 0x200 stride from 0x80, min_run=3 scrub=0 all=0
+--- pid=12867 comm=cve-2026-43499- ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=13817 comm=cve-2026-43499- ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=13820 comm=cve-2026-43499- ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=13821 comm=cve-2026-43499- ---
+  (no 0x200-stride poison page in scanned mappings)
+--- pid=23868 comm=cve-2026-43499- ---
+  (no 0x200-stride poison page in scanned mappings)
+poison_hunt: done - processes=5 pages=0 poison_words=0 scrubbed=0

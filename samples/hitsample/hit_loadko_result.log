@@ -1,0 +1,7 @@
+[*] read /data/local/tmp/ksu/kernelsu.ko (5540360 bytes)
+[*] symtab: 1797 symbols
+[*] undefined symbols to resolve: 220
+[*] resolved 220/220 from /proc/kallsyms
+[*] patched 220 symbols to SHN_ABS; 0 unresolved
+[*] loading via init_module (flags=0, vermagic flags-only compare)
+[+] module loaded OK!

