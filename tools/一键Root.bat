@@ -1,47 +1,8 @@
 @echo off
-chcp 936 >nul
-title MagicPad 3 (CGL-W00) Ò»¼ü Root
-cd /d "%~dp0"
-
-set "BASH=C:/Program Files\Git\bin\bash.exe"
-if not exist "%BASH%" set "BASH=C:/Users/Curtaincall/AppData/Local/Programs/WorkBuddy/resources/vendor/PortableGit/bin/bash.exe"
-if not exist "%BASH%" (
-  echo [´íÎó] ÕÒ²»µ½ bash.exe£¬Çë¼ì²é Git for Windows ÊÇ·ñ°²×°¡£
-  pause
-  exit /b 1
-)
-
-echo ============================================================
-echo   MagicPad 3 (CGL-W00) Ò»¼ü Root   --  App Í¨µÀ + Shizuku
-echo ============================================================
-echo.
-echo  ¿ªÊ¼Ç°ÇëÈ·ÈÏ£º
-echo    1. Æ½°åÒÑÓÃ USB ÏßÁ¬ÉÏµçÄÔ
-echo    2. Æ½°åÒÑ¿ªÆô¡¸¿ª·¢ÕßÑ¡Ïî - USB µ÷ÊÔ¡¹²¢ÒÑÊÚÈ¨±¾µçÄÔ
-echo    3. Æ½°åµçÁ¿×ã¹» / ±£³Ö²åµç
-echo.
-echo  ½Å±¾»á×Ô¶¯£ºÖØÆôÆ½°å -^> À­ Shizuku -^> ¿ª GhostLock µã²¿Êð
-echo  Ã¿¸ö boot Á¬¿ª 3 ·¢£¨Êµ²âµÚ 2 ·¢³£ÖÐ£©£¬×î¶à 20 ¸ö boot
-echo  ÖÐÍ¾ÏëÍ£¾Í°´ Ctrl+C
-echo.
-pause
-
-"%BASH%" -c "MAX_BOOTS=20 ABNORMAL_MAX=2 bash .workbuddy/app_root.sh go"
-set RC=%ERRORLEVEL%
-
-echo.
-echo ============================================================
-if "%RC%"=="0" (
-  echo   ½á¹û£ºROOT ³É¹¦
-  echo   Çëµ½Æ½°åÉÏ´ò¿ª KernelSU ¹ÜÀíÆ÷£¬Ó¦ÏÔÊ¾¡¸¹¤×÷ÖÐ [Ô½ÓüÄ£Ê½]¡¹
-  echo   ×¢Òâ£ºÖØÆôºó root »á¶ªÊ§£¬½ìÊ±ÔÙË«»÷±¾½Å±¾¼´¿É
-) else if "%RC%"=="3" (
-  echo   ½á¹û£ºÈÛ¶ÏÍ£Ö¹£¨Á¬ÐøÄÚºË panic£©£¬Éè±¸ÒÑ×Ô¶¯ÖØÆô£¬¿ÉÕý³£Ê¹ÓÃ
-  echo   ½¨ÒéÉÔºóÔÙÊÔ£¬»òÏÈ¿´ÈÕÖ¾
-) else (
-  echo   ½á¹û£º20 ¸ö boot Î´ÃüÖÐ£¨ÍË³öÂë %RC%£©£¬¿ÉÔÙ´ÎË«»÷ÖØÅÜ
-)
-echo.
-echo   ÈÕÖ¾Ä¿Â¼£ºD:/file/ÎÄµµ/workbuddy/2026-10-13-11-14-12/auto_root_logs/
-echo ============================================================
+REM ============================================================
+REM  ã€æ ¸å¿ƒä»£ç æœªå…¬å¼€ã€‘
+REM  æœ¬æ–‡ä»¶ä¸ºè‡ªåŠ¨ææƒä¸€é”®å¯åŠ¨å™¨ï¼ˆæ ¸å¿ƒä»£ç ï¼‰ï¼Œæœªéšä»“åº“å‘å¸ƒã€‚
+REM  éœ€è¦è¯·è”ç³»ä½œè€…ï¼šsaltlyfish666 ï½œ https://github.com/saltlyfish666
+REM ============================================================
+echo ã€æ ¸å¿ƒä»£ç æœªå…¬å¼€ã€‘è¯·è”ç³»ä½œè€… saltlyfish666
 pause
